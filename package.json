@@ -1,0 +1,14 @@
+{
+  "name": "fillout",
+  "version": "1.0.0",
+  "description": "Creating a fillout api with filters params",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Uraiz Ali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
