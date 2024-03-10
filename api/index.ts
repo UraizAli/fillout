@@ -56,7 +56,7 @@ app.get('/:formId/filteredResponses', async (req, res) => {
         const result = response.data['responses']
 
 
-        filteredResult = filterResponses(result, filters)
+        const filteredResult = filterResponses(result, filters)
         res.json(filteredResult);
     } catch (error) {
         console.error('Error fetching filtered responses:', error);
